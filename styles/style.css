@@ -6,5 +6,6 @@ body {
     width: 90%;
     height: 90%;
     display: flex;
-    background-color: #faf6f6a9;
+    flex-direction: column;
+    
 }
