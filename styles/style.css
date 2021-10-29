@@ -4,14 +4,18 @@ body {
     background-color: #218eb0;
 }
 
+
 h1 {
     color: whitesmoke;
     font-family: 'Boogaloo', cursive;
+    font-size: 300%;
+   display: flex;
 }
 
 h2 {
     color: whitesmoke;
     font-family: 'Slabo 27px', serif;
+    font-size: 200%;
 }
 .container {
     width: 90%;
