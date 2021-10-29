@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Slabo+27px&display=swap');
+
 body {
     background-color: #218eb0;
 }
@@ -8,9 +10,8 @@ h1 {
 
 .container {
     width: 90%;
-    height: 90%;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    
+    background-color: thistle;
 }
-
