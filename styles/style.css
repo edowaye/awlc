@@ -9,14 +9,17 @@ h1 {
     color: whitesmoke;
     font-family: 'Boogaloo', cursive;
     font-size: 300%;
-   display: flex;
+    text-align: center;
 }
 
-h2 {
+p {
     color: whitesmoke;
     font-family: 'Slabo 27px', serif;
     font-size: 200%;
+    text-align: center;
+    line-height: 2px;
 }
+
 .container {
     width: 90%;
     height: 700px;
