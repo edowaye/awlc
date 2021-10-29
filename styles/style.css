@@ -2,6 +2,10 @@ body {
     background-color: #218eb0;
 }
 
+h1 {
+    color: whitesmoke;
+}
+
 .container {
     width: 90%;
     height: 90%;
@@ -9,3 +13,4 @@ body {
     flex-direction: column;
     
 }
+
