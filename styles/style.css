@@ -21,9 +21,12 @@ p {
 }
 
 .container {
-    width: 90%;
+    width: 60%;
     height: 700px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     background-color: thistle;
+
 }
