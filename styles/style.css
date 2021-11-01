@@ -34,11 +34,11 @@ p {
     height: 700px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-flow: row-wrap;
     border-radius: 10px;
-    padding: 0.5em;
+    padding: 3em;
     margin: auto;
     background-color: #fff;
     opacity: 0.6;
-
 }
