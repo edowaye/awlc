@@ -47,7 +47,7 @@ p {
     display: flex;
     flex-flow: row-wrap;
     margin-left: 15px;
-    padding-bottom: 15px;
+    margin-right: 30px;
 }
 
 footer {
