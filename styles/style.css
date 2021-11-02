@@ -49,3 +49,9 @@ p {
     margin-left: 15px;
     padding-bottom: 15px;
 }
+
+footer {
+    text-align: center;
+    line-height: 2rem;
+    color: whitesmoke;
+}
