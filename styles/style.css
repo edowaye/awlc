@@ -45,11 +45,19 @@ p {
 
 .row1 {
     display: flex;
-    margin: 15px 30px;
+    margin-left: 15px;
     padding-bottom: 15px;
     line-height: 2rem;
+    background-color: white;
 }
 
+#email {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+
+}
 
 footer {
     text-align: center;
