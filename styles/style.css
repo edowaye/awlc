@@ -62,18 +62,21 @@ p {
 button {
     display: flex;
     background-color: red;
+    margin-top: 20px;
+    padding-top: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: none;
     color: #fff;
-    width: 100px;
+    width: 140px;
     height: 40px;
     border-radius: 3px;
     cursor: pointer;
-    line-height: 2rem;
+    line-height: 1.5rem;
     font-size: 15px;
-
-
+    font-weight: 500;
+    transition: ease-in-out;
 }
-
 
 footer {
     text-align: center;
