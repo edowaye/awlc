@@ -59,6 +59,22 @@ p {
 
 }
 
+button {
+    display: flex;
+    background-color: red;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 2rem;
+    font-size: 15px;
+
+
+}
+
+
 footer {
     text-align: center;
     line-height: 2rem;
