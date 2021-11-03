@@ -5,8 +5,6 @@ body {
 }
 
 img {
-    height: 80px;
-    width: 80px;
     border-radius: 50%;
     position: relative;
     left: 700px;
@@ -59,6 +57,13 @@ p {
 
 }
 
+.btn {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -45%;
+}
+
 button {
     display: flex;
     background-color: red;
@@ -75,8 +80,9 @@ button {
     line-height: 1.5rem;
     font-size: 15px;
     font-weight: 500;
-    transition: ease-in-out;
+
 }
+
 
 footer {
     text-align: center;
