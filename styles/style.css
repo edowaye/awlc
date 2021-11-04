@@ -78,6 +78,14 @@ p {
     line-height: 1.5rem;
 }
 
+#tel {
+    display: flex;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    margin-left: 15px;
+
+}
+
 .btn {
     display: flex;
     flex-direction: row;
