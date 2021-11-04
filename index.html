@@ -20,25 +20,27 @@
     <div class="container">
         <form>
 
-            <label></label>
-            <input type="text" id="firstname" placeholder="Your First Name" size="45" required>
-            <div>
-                <label></label>
-                <input type="text" id="lastname" placeholder="Your Last Name" size="45" required>
-            </div>
-
-
-            <div>
-                <label for="email"></label>
-                <input type="email" name="email" class=input-box id="email" placeholder="Your Email" size="45">
-            </div>
-
-
-            <div>
-                <!-- main tel div-->
+            <div class="row1">
                 <div>
-                    <label for="phone"></label>
-                    <select id="phone" name="phone" placeholder="Your Phone Number">
+                    <label></label>
+                    <input type="text" id="firstname" placeholder="Your First Name" size="50" required>
+                </div>
+                <div>
+                    <label></label>
+                    <input type="text" id="lastname" placeholder="Your Last Name" size="50" required>
+                </div>
+            </div>
+
+            <div class="row2">
+                <div>
+                    <label></label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" size="50">
+                </div>
+
+                <div>
+                    <label for="tel"></label>
+                    <select id="tel" name="tel" placeholder="Your Phone Number">
+
                         <option></option>
                         <option value="93">Afghanistan +93</option>
                         <option value="355">Albania +355</option>
@@ -61,8 +63,6 @@
 
                 </div>
             </div>
-
-
             <!-- Start of country div-->
             <div>
                 <label>Which country do you reside in?</label>
