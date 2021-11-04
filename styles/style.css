@@ -97,8 +97,24 @@ p {
     display: flex;
     margin-bottom: 15px;
     line-height: 1.5rem;
-    
+}
 
+#occupation {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+#organization {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 100%;
+    line-height: 1.5rem;
 }
 
 .btn {
