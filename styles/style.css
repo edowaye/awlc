@@ -93,6 +93,14 @@ p {
     width: 100%;
 }
 
+.custom-select {
+    display: flex;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    
+
+}
+
 .btn {
     display: flex;
     flex-direction: row;
