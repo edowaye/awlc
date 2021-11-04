@@ -43,10 +43,11 @@ p {
 
 .row1 {
     display: flex;
+    margin-top: 10px;
     margin-left: 15px;
     padding-bottom: 15px;
     line-height: 2rem;
-    background-color: white;
+
 }
 
 #firstname {
@@ -57,7 +58,20 @@ p {
 }
 
 #lastname {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    margin-left: 15px;
 
+}
+
+.row2 {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    margin-left: 15px;
 }
 
 #email {
@@ -65,6 +79,7 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.5rem;
+    margin-left: 15px;
 
 }
 
