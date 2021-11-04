@@ -53,14 +53,14 @@ p {
 #firstname {
     display: flex;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     line-height: 1.5rem;
 }
 
 #lastname {
     display: flex;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     line-height: 1.5rem;
     margin-left: 15px;
 }
