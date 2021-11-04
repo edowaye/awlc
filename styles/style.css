@@ -67,7 +67,6 @@ p {
 
 .row2 {
     display: flex;
-    margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.5rem;
     margin-left: 15px;
@@ -75,11 +74,8 @@ p {
 
 #email {
     display: flex;
-    margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.5rem;
-    margin-left: 15px;
-
 }
 
 .btn {
