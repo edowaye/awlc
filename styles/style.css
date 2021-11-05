@@ -123,14 +123,12 @@ p {
     margin-left: 15px;
     line-height: 1.5rem;
 }
-
 #mode {
     display: flex;
     margin-bottom: 15px;
     margin-left: 15px;
     width: 100%;
 }
-
 label {
     display: block;
     margin-left: auto;
