@@ -123,6 +123,7 @@ p {
     margin-left: 15px;
     line-height: 1.5rem;
 }
+
 #mode {
     display: flex;
     margin-bottom: 15px;
@@ -134,12 +135,13 @@ label {
     display: block;
     margin-left: auto;
 }
+
 .radiobtns {
     display: inline-flex;
-    background-color: red;
     margin-bottom: 15px;
 
 }
+
 .btn {
     display: flex;
     flex-direction: row;
