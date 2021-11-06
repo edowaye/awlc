@@ -99,8 +99,6 @@ p {
 .custom-select {
     display: flex;
     margin-bottom: 15px;
-    line-height: 1.5rem;
-    background-color: red;
 }
 
 #occupation {
