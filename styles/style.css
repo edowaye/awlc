@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Slabo+27px&display=swap');
 
+.container-sm {
+    max-width: 60%;
+    height: 800px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-wrap;
+    border-radius: 10px;
+    padding: 2em;
+    margin: auto;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+
 body {
     background-color: #218eb0;
     font-size: 1rem;
@@ -28,20 +43,6 @@ p {
     text-align: center;
     line-height: 2px;
     padding-bottom: 30px;
-}
-
-.container {
-    width: 60%;
-    height: 800px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-flow: row-wrap;
-    border-radius: 10px;
-    padding: 2em;
-    margin: auto;
-    background-color: #fff;
-    opacity: 0.8;
 }
 
 .row1 {
@@ -110,8 +111,7 @@ p {
 
 #organization {
     display: flex;
-    margin: 1px 15px 15px 5px;
-    width: 100%;
+  
     line-height: 1.5rem;
 }
 
@@ -127,7 +127,7 @@ p {
     display: flex;
     margin-bottom: 15px;
     margin-left: 15px;
-    width: 100%;
+    width: 85%;
 }
 
 label {
