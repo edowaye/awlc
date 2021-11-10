@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Slabo+27px&display=swap');
 
 .container-sm {
-    max-width: 60%;
+    max-width: 90%;
     height: 800px;
     box-sizing: border-box;
     display: flex;
@@ -111,7 +111,7 @@ p {
 
 #organization {
     display: flex;
-  
+
     line-height: 1.5rem;
 }
 
@@ -140,6 +140,7 @@ label {
     margin-bottom: 15px;
 
 }
+
 .radiobtn2 {
     display: inline-flex;
     margin-bottom: 15px;
