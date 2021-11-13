@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Slabo+27px&display=swap');
+
+
 body {
     background-color: #218eb0;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Boogaloo',
+        cursive;
+}
+
+h4 {
+    color: white;
+    font-family: 'Slabo 27px',
+        serif;
+
 }
