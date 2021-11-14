@@ -4,17 +4,37 @@
 body {
     background-color: #218eb0;
 }
+.text-center {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
-
+.container {
+    width: 60%;
+    border-radius: 5px;
+}
 h1 {
     color: white;
-    font-family: 'Boogaloo',
-        cursive;
+    font-family: 'Boogaloo', cursive;
+    line-height: 1.5;
+
 }
 
 h4 {
     color: white;
-    font-family: 'Slabo 27px',
-        serif;
+    font-family: 'Slabo 27px', serif;
+    font-size: 200%;
+    font-weight: 800;
 
 }
+
+form {
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 40px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0.5px rgb(0 0 255 / 20%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    }
