@@ -13,14 +13,14 @@ body {
     width: 60%;
     border-radius: 5px;
 }
-h1 {
+.h1 {
     color: white;
     font-family: 'Boogaloo', cursive;
     line-height: 1.5;
 
 }
 
-h4 {
+.h4 {
     color: white;
     font-family: 'Slabo 27px', serif;
     font-size: 200%;
