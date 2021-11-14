@@ -45,15 +45,14 @@
 
             <div class="row">
                 <div class="col-6">
-                    
+
                     <label for="email" class="form-label"></label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" size="40">
+                    <input type="email" class="form-control mb-3" name="email" id="email" placeholder="Your Email" size="40">
                 </div>
                 <div class="col-6">
                     <label for="tel"></label>
                     <input type="tel" class="form-control" name="tel" id="tel" placeholder="Your Phone Number" size="40"
-                        </div> <!-- <select
-                        id="tel" name="tel" placeholder="Your Phone Number">
+                        </div> <!-- <select id="tel" name="tel" placeholder="Your Phone Number">
                     <option></option>
                     <option value="93">Afghanistan +93</option>
                     <option value="355">Albania +355</option>
@@ -78,12 +77,9 @@
             </div>
             <!-- Start of country div-->
             <div>
-
                 <div class="country"><label for="country">Which country do you reside in?</label> </div>
-                <br>
-                <select id="country" name="country" required>
-                    <!--     Is it semantically correct to remove this? Its presence is problematic <option></option> -->
-                    <div class="custom-select">
+                <select class="form-select mt-2 mb-3" id="country" name="country" required>
+                    <div class="custom-select" aria-label="select">
                         <option value="AF">Afghanistan</option>
                         <option value="AX">Aland Islands</option>
                         <option value="AL">Albania</option>
@@ -342,12 +338,12 @@
 
             <div>
                 <label for="occupation">What is your occupation?</label><br>
-                <input type="text" class="form-control" id="occupation" size="85" required>
+                <input type="text" class="form-control mt-2 mb-3" id="occupation" size="85" required>
             </div>
 
             <div>
                 <label>What is the name of your company or organization</label><br>
-                <input type="text" class="form-control" id="organization" size="85" required>
+                <input type="text" class="form-control mt-2 mb-3"" id=" organization" size="85" required>
             </div>
 
             <div>Are you a member of AWLO?</div><br>
