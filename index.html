@@ -47,7 +47,8 @@
                 <div class="col-6">
 
                     <label for="email" class="form-label"></label>
-                    <input type="email" class="form-control mb-3" name="email" id="email" placeholder="Your Email" size="40">
+                    <input type="email" class="form-control mb-3" name="email" id="email" placeholder="Your Email"
+                        size="40">
                 </div>
                 <div class="col-6">
                     <label for="tel"></label>
@@ -346,11 +347,15 @@
                 <input type="text" class="form-control mt-2 mb-3"" id=" organization" size="85" required>
             </div>
 
-            <div>Are you a member of AWLO?</div><br>
-            <div class="radiobtn1"> <label for="Yes">Yes</label>
-                <input type="radio" name="member" id="Yes" value="Yes"></div>
-            <div class="radiobtn2"> <label for="No">No</label>
-                <input type="radio" name="member" id="No" value="No"></div>
+            <div>Are you a member of AWLO?</div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="member" id="Yes">
+                <label class="form-check-label" for="Yes">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="member" id="no">
+                <label class="form-check-label" for="No">No</label>
+            </div>
 
 
             <div class="mode">
@@ -366,25 +371,25 @@
                 </select>
             </div>
 
-            <div class="form-check">Is this your first AWLO conference?<br>
-                <input class="form-check-input" type="radio" name="Yes" id="Yes">
-            </div>
+            <div>Is this your first AWLO conference?</div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="first" id="Yes">
+        <label class="form-check-label" for="Yes">Yes</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="first" id="no">
+        <label class="form-check-label" for="No">No</label>
+    </div>
+    <div>
+        <button class="btn btn-danger">Register</button>
+    </div>
 
-            <div class="radiobtn1"> <label for="Yes">Yes</label>
-                <input type="radio" name="first" id="Yes" value="Yes"> </div>
-            <div class="radiobtn2"> <label for="No">No</label>
-                <input type="radio" name="first" id="No" value="No"></div>
 
-            <div>
-                <button class="btn btn-danger">Register</button>
-            </div>
+    </form>
+    <footer>&copy; African Women In Leadership Organization <br>
 
-
-        </form>
-        <footer>&copy; African Women In Leadership Organization <br>
-
-            Designed and Created by Benson Imoh,ST & Chiamaka Osumgba
-        </footer>
+        Designed and Created by Benson Imoh,ST & Chiamaka Osumgba
+    </footer>
     </div>
 
 </body>
